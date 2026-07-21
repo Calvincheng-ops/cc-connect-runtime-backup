@@ -1,0 +1,39 @@
+# Secret-free template reflecting the structure of the captured instance.
+# Copy this file to ~/.cc-connect/config.toml and replace placeholders locally.
+
+language = "zh"
+
+[log]
+level = "info"
+
+[[projects]]
+name = "REPLACE_ME_PROJECT_NAME"
+admin_from = ["REPLACE_ME_ADMIN_ID"]
+
+[projects.agent]
+type = "codex"
+
+[projects.agent.options]
+work_dir = "/absolute/path/to/project"
+mode = "default"
+allowed_tools = []
+system_prompt = ""
+
+[[projects.platforms]]
+type = "weixin"
+
+[projects.platforms.options]
+token = "REPLACE_ME_WEIXIN_TOKEN"
+base_url = "https://ilinkai.weixin.qq.com"
+account_id = "REPLACE_ME_ACCOUNT_ID"
+allow_from = ["REPLACE_ME_ALLOWED_USER"]
+
+[[providers]]
+name = "REPLACE_ME_PROVIDER_NAME"
+api_key = "REPLACE_ME_API_KEY"
+base_url = "REPLACE_ME_BASE_URL"
+agent_types = ["codex"]
+
+[providers.codex]
+wire_api = "responses"
+

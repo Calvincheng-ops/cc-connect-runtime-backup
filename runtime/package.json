@@ -1,0 +1,18 @@
+{
+  "name": "cc-connect",
+  "version": "1.3.2",
+  "description": "Bridge local AI coding agents to messaging platforms",
+  "homepage": "https://github.com/chenhg5/cc-connect",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenhg5/cc-connect.git"
+  },
+  "license": "MIT",
+  "bin": {
+    "cc-connect": "run.js"
+  },
+  "scripts": {
+    "postinstall": "node install.js"
+  }
+}
+

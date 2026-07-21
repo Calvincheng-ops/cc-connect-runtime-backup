@@ -1,0 +1,14 @@
+{
+  "application": "cc-connect",
+  "version": "1.3.2",
+  "upstream_commit": "19406df9",
+  "built_at": "2026-04-21T00:42:17Z",
+  "installed_via": "npm global package",
+  "installed_at": "2026-05-09T15:44:21+08:00",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "binary_size_bytes": 21124418,
+  "binary_sha256": "0d28de370d35e04eb7ea0a7efcb2c47f93dbf09b0cc8d4188a389a660ab49ff3",
+  "binary_in_repository": false
+}
+

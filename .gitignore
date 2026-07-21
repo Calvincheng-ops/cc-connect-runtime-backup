@@ -1,0 +1,22 @@
+# Real runtime configuration and credentials
+config.toml
+.env
+.env.*
+secrets/
+
+# Runtime state and user data
+sessions/
+run/
+crons/
+weixin/
+*.lock
+*.log
+
+# Platform-specific downloaded binaries
+bin/
+cc-connect
+cc-connect.exe
+
+# Local files
+.DS_Store
+
